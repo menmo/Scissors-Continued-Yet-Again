@@ -1407,7 +1407,7 @@ function scissors_action()
 
 //add_filter('media_meta', 'scissors_media_meta', 99, 2);
 //add_action('admin_enqueue_scripts', 'scissors_admin_head');
-add_action('admin_print_styles', 'scissors_styles');
+add_action('admin_print_styles-toplevel_page_arlima-main', 'scissors_styles');
 add_action('wp_ajax_scissorsCrop', 'scissors_action');
 add_action('wp_ajax_scissorsResize', 'scissors_action');
 add_action('wp_ajax_scissorsRotate', 'scissors_action');
